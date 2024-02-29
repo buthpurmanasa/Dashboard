@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .card {
+            width: 200px;
+            text-align: center;
+            color: rgb(249, 247, 250);
+            background: rgb(16, 38, 45);
+
+
+
+
+
+        }
+
+        .card :hover {
+            background: whitesmoke;
+            border-radius: 10px 10px;
+            opacity: 0.8;
+            color: rgb(21, 1, 1);
+            transform: translateY(-10px);
+        }
+
+        
+    </style>
+
+<body style="   background: rgb(232, 165, 165);">
+    <section  >
+        <h2 class="w-100%"
+        style="color: black; font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Appointments</h2>
+
+        <div class="row row-cols-1 w-100 row-cols-md-5 g-4 mt-2 ">
+            <div class="col">
+                <div class="card border mx-3 rounded-4 h-100" style="width: 200px;   width: 200px;
+                text-align: center;
+                color: rgb(249, 247, 250);
+                background: rgb(16, 38, 45);
+    ">
+
+                    <div class="card-body ">
+                        <i class="fa fa-calendar"  style="font-size: 30px;"></i>
+                        <h5 class="card-title">5</h5>
+                        <p class="card-text">Today
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border rounded-4 h-100 ">
+
+                    <div class="card-body">
+                       
+                    <i class="fa fa-calendar"  style="font-size: 30px;"></i>
+
+                        <h5 class="card-title">10</h5>
+                        <p class="card-text">Weekly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border rounded-4 h-90 w-90">
+
+                    <div class="card-body">
+                        <i class="fa fa-calendar"  style="font-size: 30px;"></i>
+                        <h5 class="card-title">15</h5>
+                        <p class="card-text">Upcoming</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border rounded-4 h-90 w-90">
+
+                    <div class="card-body">
+                        <i class="fa fa-calendar"  style="font-size: 30px;"></i>
+                        <h5 class="card-title">5</h5>
+                        <p class="card-text">Recently Added</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border rounded-4 h-90 w-90">
+
+                    <div class="card-body">
+                        <i class="fa fa-calendar"  style="font-size: 30px;" ></i>
+
+                        <h5 class="card-title">15</h5>
+                        <p class="card-text">Pending</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 mt-5 border rounded-4 " style="width: 1000px; height: 400px; margin-left: 100px;">
+
+            <div class="card-body">
+                <h5 class="card-title ">
+                    <div class="card-header">
+                        <ul class="nav nav-pills card-header-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">CONFIRMED</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="#">CANCELLED</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white">PENDING</a>
+                            </li>
+                        </ul>
+                    </div>
+                </h5>
+                <ul class="d-flex gap-5 text-center" style="list-style-type: none; margin-top: 20px; margin-top: 60px;">
+                    <li>Date
+                        <hr>
+                        <p>26 SEP 2023</p>
+                        <p>25 SEP 2023</p>
+                        <p>24 SEP 2023</p>
+                        <p>23 SEP 2023</p>
+
+                    </li>
+                    <li class="text-center">Hair Stylist
+                        <hr>
+                        <p>John jackson</p>
+                        <p>Meera</p>
+                        <p>Rubai</p>
+                        <p>Vibha</p>
+                    </li>
+                    <li class="text-center">Service
+                        <hr>
+                        <P>Hair spa</P>
+                        <P>Hair cut</P>
+                        <P>Coloring</P>
+                        <P>Aurora styling</P>
+                    </li>
+                    <li class="text-end">Cliant Name
+                        <hr>
+                        <P>ADHYA</P>
+                        <P>NITHYA</P>
+                        <P>MADHU</P>
+                        <P>KEERTHI</P>
+                    </li>
+                    <li class="text-end">Number
+                        <hr>
+                        <P>9876543217 </P>
+                        <P>8765432193</P>
+                        <P>7654321982</P>
+                        <P>8135476895</P>
+                    </li>
+                    <li class="text-end ">Status
+                        <hr>
+                        <P class="text-primary">confirmed</P>
+                        <P class="text-primary">confirmed</P>
+                        <P class="text-primary">confirmed</P>
+                        <P class="text-primary">confirmed</P>
+                    </li>
+                    <li class=>Edit
+                        <hr>
+
+                        <p><i class="fa fa-edit"></i></p>
+                        <p><i class="fa fa-edit"></i></p>
+                        <p> <i class="fa fa-edit"></i></p>
+                        <p> <i class="fa fa-edit"></i></p>
+
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-2 d-flex mx-auto">
+            <div class="col ">
+                <div class="card border rounded-4 " style="width: 500px; ">
+                    <img src="images/pic3.png" class="card-img-top rounded-4" alt="...">
+
+                </div>
+            </div>
+            <div class="card border rounded-4 " style="width: 510px;">
+                <h5 class="card-title text-start mt-2">Stylist</h5>
+                <div class="card-body d-flex gap-5" style="margin-top: 30px;">
+                   
+                   <div>
+                    <img src="images/img1.jpg" class="border rounded-circle" style="height: 90px; width: 80px;">
+                    <div><h4>Meera</h4>
+                    <p>Hair stylist</p></div>
+                </div>
+                    <div>
+                    <img src="images/img2.jpg" class="border rounded-circle" alt="" style="height: 90px; width: 80px;">
+                    <div><h4>Rubai</h4>
+                        <p>Hair spa</p></div>
+                    </div>
+                    <div>
+                    <img src="images/img3.jpg" class="border rounded-circle" alt="..." style="height: 90px; width: 80px;">
+                    <div><h4>Vibha</h4>
+                        <p>Hair stylist</p></div>
+                    </div>
+                    <div>
+                    <img src="images/img4.jpg" class="border rounded-circle" alt="..." style="height: 90px; width: 80px;">
+                    <div><h4>Sakshi</h4>
+                        <p>Hair spa</p></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
